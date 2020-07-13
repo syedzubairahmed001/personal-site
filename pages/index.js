@@ -24,6 +24,7 @@ export default function Home() {
             Nodejs, ReactNative, Postgres, MongoDb, AWS and many cool
             technologies"
         />
+        <meta name="google-site-verification" content="VHBliz1D6fZ5GxgWIzxU4IdbHnBPVKmWLDDQC94ZunU" />
         <script
           data-ad-client="ca-pub-9876319634376967"
           async
