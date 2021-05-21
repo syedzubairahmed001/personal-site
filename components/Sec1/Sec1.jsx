@@ -109,7 +109,7 @@ const Sec1 = (props) => {
           <Tooltip title="Twitter" arrow placement="top">
             <Box className={styles.socialIcon}>
               <a
-                href="https://twitter.com/_syed_zubair"
+                href="https://twitter.com/zubairself"
                 alt="twitter"
                 target="_blank"
                 noopener
@@ -123,7 +123,7 @@ const Sec1 = (props) => {
           <Tooltip title="Instagram" arrow placement="top">
             <Box className={styles.socialIcon}>
               <a
-                href="https://www.instagram.com/_syed_zubair_ahmed/"
+                href="https://www.instagram.com/zubairself/"
                 alt="instagram"
                 target="_blank"
                 noopener
