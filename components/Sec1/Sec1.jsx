@@ -12,10 +12,11 @@ import {
 const useStyles = makeStyles((theme) => ({
   container: {
     padding: "50px",
+    height: "100%"
   },
   profileImage: {
-    width: "200px",
-    height: "200px",
+    width: "150px",
+    height: "150px",
     borderRadius: "100px",
   },
   heading: {
@@ -24,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
   },
   subHeading: {
     fontSize: "20px",
+    width: "70%"
   },
   socialIcon: {
     display: "inline-block",
@@ -35,9 +37,16 @@ const useStyles = makeStyles((theme) => ({
   socialIconLink: {
     color: "#fff",
   },
+  link: {
+    color: "#fff"
+  },
   "@media only screen and (max-width:600px)": {
     container: {
       padding: "20px",
+    },
+    subHeading: {
+      fontSize: "20px",
+      width: "90%"
     },
   },
 }));
@@ -48,7 +57,7 @@ const Sec1 = (props) => {
     <Grid
       container
       alignItems="center"
-      justify="center"
+      justify="left"
       className={styles.container}
     >
       <Grid item>
@@ -63,7 +72,7 @@ const Sec1 = (props) => {
             className={styles.heading}
             color="textPrimary"
           >
-            Hello, I am Syed Zubair Ahmed!
+            Hey, I'm Zubair
           </Typography>
         </Box>
         <Box mt={3}>
@@ -72,9 +81,14 @@ const Sec1 = (props) => {
             className={styles.subHeading}
             color="textSecondary"
           >
-            A Full-Stack Developer and Entrepreneur, I work with Reactjs,
-            Nodejs, ReactNative, Postgres, MongoDb, AWS and many cool
-            technologies. I learn new stuff everytime and it's never ending!
+            A software developer and aspiring entrepreneur, 
+            building cool things, checkout {" "}
+            <a href="https://stories.zubs.xyz"
+                alt="Browser Stories"
+                target="_blank"
+                noopener
+                className={styles.link}
+                noreferer >Browser Stories</a> my recent piece of creation, also I love reading books and hitting the gym.
           </Typography>
         </Box>
         <Box mt={3}>
