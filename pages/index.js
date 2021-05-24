@@ -17,12 +17,10 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Syed Zubair Ahmed</title>
+        <title>Zubair</title>
         <meta
           name="description"
-          content="Syed Zubair Ahmed is a Full-Stack Developer and entrepreneur from Hyderabad, India. He works with Reactjs,
-            Nodejs, ReactNative, Postgres, MongoDb, AWS and many cool
-            technologies"
+          content="A software developer and aspiring entrepreneur, created Browser Stories"
         />
         <meta name="google-site-verification" content="VHBliz1D6fZ5GxgWIzxU4IdbHnBPVKmWLDDQC94ZunU" />
         <script
