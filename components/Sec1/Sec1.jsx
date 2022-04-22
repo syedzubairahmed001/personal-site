@@ -62,7 +62,7 @@ const Sec1 = (props) => {
     >
       <Grid item>
         <img
-          src="/images/profile_image.jpg"
+          src="/images/profile_image.jpeg"
           alt="Syed Zubair Ahmed"
           className={styles.profileImage}
         />
@@ -81,14 +81,13 @@ const Sec1 = (props) => {
             className={styles.subHeading}
             color="textSecondary"
           >
-            A software developer and aspiring entrepreneur, 
-            building cool things, checkout {" "}
-            <a href="https://stories.zubs.xyz"
-                alt="Browser Stories"
+            I'm a Full stack web developer and Indie maker with experience building end to end products from UI to backend and databases, checkout {" "}
+            <a href="https://www.relaxfrens.com"
+                alt="RelaxFrens"
                 target="_blank"
                 noopener
                 className={styles.link}
-                noreferer >Browser Stories</a> my recent piece of creation, also I love reading books and hitting the gym.
+                noreferer >RelaxFrens</a> my recent mini app, I also love reading books and hitting the gym, I hang out on twitter, come say hi!
           </Typography>
         </Box>
         <Box mt={3}>
