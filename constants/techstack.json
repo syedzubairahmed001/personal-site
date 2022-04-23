@@ -1,0 +1,13 @@
+{
+    "nodejs": "Node JS",
+    "reactjs": "React JS",
+    "mongodb": "MongoDB",
+    "aws": "AWS",
+    "awsServerless": "AWS Serverless",
+    "firebase": "Firebase",
+    "reactnative": "React Native",
+    "redis": "Redis",
+    "stripe": "Stripe",
+    "nextjs":"Nextjs",
+    "sql":"SQL"
+}

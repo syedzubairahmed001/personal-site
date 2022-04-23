@@ -57,7 +57,7 @@ const Sec1 = (props) => {
     <Grid
       container
       alignItems="center"
-      justify="left"
+      justify="flex-start"
       className={styles.container}
     >
       <Grid item>
@@ -85,77 +85,77 @@ const Sec1 = (props) => {
             <a href="https://www.relaxfrens.com"
                 alt="RelaxFrens"
                 target="_blank"
-                noopener
+                rel="noopener noreferrer"
                 className={styles.link}
-                noreferer >RelaxFrens</a> my recent mini app, I also love reading books and hitting the gym, I hang out on twitter, come say hi!
+                 >RelaxFrens</a> my recent mini app, I also love reading books and hitting the gym, I hang out on twitter, come say hi!
           </Typography>
         </Box>
         <Box mt={3}>
-          <Tooltip title="Github" arrow placement="top">
+          <Tooltip title="github.com/syedzubairahmed001" arrow placement="top">
             <Box className={styles.socialIcon}>
               <a
                 href="https://github.com/syedzubairahmed001"
                 alt="github"
                 target="_blank"
-                noopener
+                rel="noopener noreferrer"
                 className={styles.socialIconLink}
-                noreferer
+                
               >
                 <GitHub strokeWidth={1.5} size={30} />
               </a>
             </Box>
           </Tooltip>
-          <Tooltip title="Linkedin" arrow placement="top">
+          <Tooltip title="linkedin.com/in/syedzubairahmed001" arrow placement="top">
             <Box className={styles.socialIcon}>
               <a
                 href="https://www.linkedin.com/in/syedzubairahmed001/"
                 alt="linkedin"
                 target="_blank"
-                noopener
+                rel="noopener noreferrer"
                 className={styles.socialIconLink}
-                noreferer
+                
               >
                 <Linkedin strokeWidth={1.5} size={30} />
               </a>
             </Box>
           </Tooltip>
-          <Tooltip title="Twitter" arrow placement="top">
+          <Tooltip title="twitter.com/zubairself" arrow placement="top">
             <Box className={styles.socialIcon}>
               <a
                 href="https://twitter.com/zubairself"
                 alt="twitter"
                 target="_blank"
-                noopener
+                rel="noopener noreferrer"
                 className={styles.socialIconLink}
-                noreferer
+                
               >
                 <Twitter strokeWidth={1.5} size={30} />
               </a>
             </Box>
           </Tooltip>
-          <Tooltip title="Instagram" arrow placement="top">
+          <Tooltip title="instagram.com/zubairself" arrow placement="top">
             <Box className={styles.socialIcon}>
               <a
                 href="https://www.instagram.com/zubairself/"
                 alt="instagram"
                 target="_blank"
-                noopener
+                rel="noopener noreferrer"
                 className={styles.socialIconLink}
-                noreferer
+                
               >
                 <Instagram strokeWidth={1.5} size={30} />
               </a>
             </Box>
           </Tooltip>
-          <Tooltip title="Email" arrow placement="top">
+          <Tooltip title="syedzubairahmed001@gmail.com" arrow placement="top">
             <Box className={styles.socialIcon}>
               <a
                 href="mailto:syedzubairahmed001@gmail.com"
                 alt="email"
                 target="_blank"
-                noopener
+                rel="noopener noreferrer"
                 className={styles.socialIconLink}
-                noreferer
+                
               >
                 <Mail strokeWidth={1.5} size={30} />
               </a>

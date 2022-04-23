@@ -24,13 +24,13 @@ const theme = createMuiTheme({
     //   level1: "#212121"
     // },
     primary: {
-      main: "#e74c3c",
+      main: "#0097e6",
       light: "#E9F4FF",
       dark: "#0076ED",
     },
     secondary: {
       light: "rgba(0, 231, 162, 0.1)",
-      main: "#01D696",
+      main: "#8e44ad",
       contrastText: "#fff",
     },
     error: {
@@ -45,7 +45,7 @@ const theme = createMuiTheme({
     contrastThreshold: 3,
     tonalOffset: 0.2,
     background: {
-      paper: "#fff",
+      paper: "#333",
       default: "#222",
     },
     common: {
