@@ -155,7 +155,7 @@ const Sec1 = (props) => {
                       Browser Stories (Sold)
                     </Typography>
                     <Typography variant="body2" color="textSecondary">
-                      A browser extension which enables Stories like feature for all chromium based browsers, scaled upto 200+ daily active users before I selling it.
+                      A browser extension which enables Stories like feature for all chromium based browsers, scaled upto 200+ daily active users before it got acquired.
                     </Typography>
                     <Box mt={2}>
                       <Box mr={1} mt={1} display="inline-block">
